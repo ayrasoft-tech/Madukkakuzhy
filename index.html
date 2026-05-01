@@ -26,9 +26,11 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-        /* Smooth scrolling behavior */
-        html {
+        /* Smooth scrolling behavior and mobile overflow fix */
+        html, body {
             scroll-behavior: smooth;
+            overflow-x: hidden;
+            width: 100%;
         }
     </style>
 </head>
@@ -80,16 +82,16 @@
         </div>
     </div>
     
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-4 px-lg-5 py-3 py-lg-0">
         <a href="#home" class="navbar-brand p-0 d-flex align-items-center">
-            <img src="img/clinic-logo.png" alt="Clinic Logo" style="height: 55px; margin-right: 12px;">
+            <img src="img/clinic-logo.png" alt="Clinic Logo" style="height: clamp(40px, 10vw, 55px); margin-right: 10px;">
 
             <div class="d-flex flex-column align-items-start">
-                <h1 class="m-0" style="font-size: clamp(20px, 4.5vw, 32px); line-height: 1; color: #5E786B;">
+                <h1 class="m-0" style="font-size: clamp(16px, 4.5vw, 32px); line-height: 1; color: #5E786B;">
                     MADUKKAKUZHY
                 </h1>
                 <span style="
-                    font-size: clamp(12px, 3vw, 20px);
+                    font-size: clamp(10px, 2.8vw, 20px);
                     font-weight: 400;
                     margin-left: 2px;
                     display: inline-block;
@@ -122,7 +124,7 @@
                 </div>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="appointments.html" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
+            <a href="appointments.html" class="btn btn-primary py-2 px-4 ms-lg-3 mt-3 mt-lg-0">Appointment</a>
         </div>
     </nav>
     
