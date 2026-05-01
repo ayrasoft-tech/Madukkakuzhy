@@ -197,15 +197,27 @@
             </div>
 
             <div class="input-group">
-                <label for="doctor">Select Doctor</label>
-                <select id="doctor" required>
-                    <option value="" disabled selected>-- Choose a Doctor --</option>
-                    <option value="Dr. Alka Elza Prakash">Dr. Alka Elza Prakash</option>
-                    <option value="Dr. Aju George">Dr. Aju George</option>
-                    <option value="Dr. Thomas Kurian">Dr. Thomas Kurian</option>
-                    <option value="Dr. Zachria Issac">Dr. Zachria Issac</option>
-                </select>
-            </div>
+    <label for="doctor">Select Doctor</label>
+    <select id="doctor" required>
+        <option value="" disabled selected>-- Choose a Doctor --</option>
+        <option value="Dr. ABIN ANNA">Dr. ABIN ANNA</option>
+        <option value="Dr. AJU GEORGE">Dr. AJU GEORGE</option>
+        <option value="Dr. AMEERR">Dr. AMEERR</option>
+        <option value="Dr. ANU MATHEW">Dr. ANU MATHEW</option>
+        <option value="Dr. ASHLY">Dr. ASHLY</option>
+        <option value="Dr. ATHIRA">Dr. ATHIRA</option>
+        <option value="Dr. BLESSIN">Dr. BLESSIN</option>
+        <option value="Dr. GIFTY">Dr. GIFTY</option>
+        <option value="Dr. JINKU">Dr. JINKU</option>
+        <option value="Dr. JWALA">Dr. JWALA</option>
+        <option value="DR. NIRUPAMA">DR. NIRUPAMA</option>
+        <option value="Dr. NIVYA">Dr. NIVYA</option>
+        <option value="Dr. RENJU">Dr. RENJU</option>
+        <option value="Dr. RINY">Dr. RINY</option>
+        <option value="Dr. VIMAL">Dr. VIMAL</option>
+        <option value="Dr. VINEETH">Dr. VINEETH</option>
+    </select>
+</div>
 
             <div class="input-group">
                 <label for="reason">Reason For Visit</label>
@@ -215,7 +227,19 @@
             <button type="submit" id="submitBtn">Submit Request</button>
         </form>
         <div id="status"></div>
+
+        <!-- AyraSoft Watermark with Inline CSS -->
+<div style="text-align: center; margin-top: 20px; font-size: 11px; color: #6b7280; letter-spacing: 0.5px; font-family: sans-serif;">
+    Developed by 
+    <a href="https://ayrasoft.vercel.app" 
+       target="_blank" 
+       style="color: #0d9488; text-decoration: none; font-weight: 600;">
+       AyraSoft Technologies
+    </a>
+</div>
+
     </div>
+
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
@@ -318,11 +342,5 @@ const firebaseConfig = {
         });
     </script>
 
-    <!-- Footer Watermark -->
-    <footer style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 20px 0; text-align: center; margin-top: 40px; width: 100%; position: relative;">
-        <p style="margin: 0; color: #6c757d; font-size: 14px;">
-            Developed by <a href="https://ayrasoft.vercel.app" target="_blank" style="color: #0d9488; text-decoration: none; font-weight: 600; transition: color 0.3s ease;" onmouseover="this.style.color='#0f766e'" onmouseout="this.style.color='#0d9488'">AyraSoft</a>
-        </p>
-    </footer>
-</body>
+        </body>
 </html>
