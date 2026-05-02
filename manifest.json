@@ -1,7 +1,7 @@
 {
   "short_name": "Clinic Admin",
   "name": "Madukkakuzhy Dental Admin Dashboard",
-  "start_url": ".",
+  "start_url": "/admin.html",
   "display": "standalone",
   "theme_color": "#0d9488",
   "background_color": "#f0fdfa",
