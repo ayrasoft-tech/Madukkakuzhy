@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Madukkakuzhy Dental Care | Best Dentist in Kanjirappally, Kerala</title>
+    <title>Madukkakuzhy Dental Care</title>
     <meta name="description" content="Top-rated dental clinic in Kanjirappally offering expert root canals, implants, clear aligners, and cosmetic dentistry. Proudly serving Kottayam, Ponkunnam, Mundakayam, Erumely, and Pathanamthitta.">
     <meta name="keywords" content="Best dental clinic Kanjirappally, dentist near me, Kottayam dental care, Mundakayam dentist, Ponkunnam dental clinic, Erumely tooth extraction, root canal Pala, Changanassery cosmetic dentistry, Pathanamthitta dental implants, clear aligners Kerala, pediatric dentist Kanjirappally, teeth whitening Kottayam, Madukkakuzhy Dental Care, Dr Aju George">
     <meta name="author" content="Madukkakuzhy Dental Care">
@@ -1804,4 +1804,28 @@
 </body>
 
 >>>>>>> 9c63b52a9370539978c40c0c1319f389eb4a92b6
+t.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Simple script to handle active navigation link state on click
+        $(document).ready(function () {
+            $('.navbar-nav .nav-link').on('click', function () {
+                $('.navbar-nav').find('.active').removeClass('active');
+                $(this).addClass('active');
+
+                // For dropdown items
+                if ($(this).hasClass('dropdown-item')) {
+                     $(this).closest('.dropdown').find('.dropdown-toggle').addClass('active');
+                }
+            });
+        });
+    </script>
+</body>
+
 </html>
