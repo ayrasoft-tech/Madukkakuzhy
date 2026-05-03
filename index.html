@@ -3,10 +3,42 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Madukkakuzhy Dental Care</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Dental Care Website" name="keywords">
-    <meta content="High-quality dental treatments in a friendly environment." name="description">
+    <title>Madukkakuzhy Dental Care | Best Dentist in Kanjirappally, Kerala</title>
+    <meta name="description" content="Top-rated dental clinic in Kanjirappally offering expert root canals, implants, clear aligners, and cosmetic dentistry. Proudly serving Kottayam, Ponkunnam, Mundakayam, Erumely, and Pathanamthitta.">
+    <meta name="keywords" content="Best dental clinic Kanjirappally, dentist near me, Kottayam dental care, Mundakayam dentist, Ponkunnam dental clinic, Erumely tooth extraction, root canal Pala, Changanassery cosmetic dentistry, Pathanamthitta dental implants, clear aligners Kerala, pediatric dentist Kanjirappally, teeth whitening Kottayam, Madukkakuzhy Dental Care, Dr Aju George">
+    <meta name="author" content="Madukkakuzhy Dental Care">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Local SEO / Geo Meta Tags (Crucial for Local Search Maps) -->
+    <meta name="geo.region" content="IN-KL">
+    <meta name="geo.placename" content="Kanjirappally">
+    <meta name="geo.position" content="9.5540;76.7890"> 
+    <meta name="ICBM" content="9.5540, 76.7890">
+
+    <!-- Open Graph / Facebook / WhatsApp (Makes shared links look highly professional) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://madukkakuzhydentistry.com/"> 
+    <meta property="og:title" content="Madukkakuzhy Dental Care | Best Dentist in Kanjirappally">
+    <meta property="og:description" content="Expert dental care in Kanjirappally. Book an appointment for root canals, implants, and cosmetic dentistry today.">
+    <meta property="og:image" content="https://madukkakuzhydentistry.com/img/clinic-logo.png"> 
+    <meta property="og:site_name" content="Madukkakuzhy Dental Care">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://madukkakuzhydentistry.com/"> 
+    <meta name="twitter:title" content="Madukkakuzhy Dental Care | Expert Dental Clinic">
+    <meta name="twitter:description" content="Expert dental care in Kanjirappally. Book an appointment for root canals, implants, and cosmetic dentistry today.">
+    <meta name="twitter:image" content="https://madukkakuzhydentistry.com/img/clinic-logo.png"> 
+
+    <!-- Mobile & Browser Branding -->
+    <meta name="theme-color" content="#5E786B">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Best dental clinic Kanjirappally, dentist near me, Kottayam dental care, Mundakayam dentist, Ponkunnam dental clinic, Erumely tooth extraction, root canal Pala, Changanassery cosmetic dentistry, Pathanamthitta dental implants, clear aligners Kerala" name="keywords">
+    <meta content="Top-rated dental clinic in Kanjirappally offering expert root canals, implants, and cosmetic dentistry. Proudly serving patients from Kottayam, Ponkunnam, Mundakayam, Pathanamthitta, and surrounding areas. Book your appointment today." name="description">
 
     <link href="img/clinic-logo.png" rel="icon">
 
@@ -26,9 +58,11 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-        /* Smooth scrolling behavior */
-        html {
+        /* Smooth scrolling behavior and mobile overflow fix */
+        html, body {
             scroll-behavior: smooth;
+            overflow-x: hidden;
+            width: 100%;
         }
     </style>
 </head>
@@ -80,16 +114,16 @@
         </div>
     </div>
     
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-4 px-lg-5 py-3 py-lg-0">
         <a href="#home" class="navbar-brand p-0 d-flex align-items-center">
-            <img src="img/clinic-logo.png" alt="Clinic Logo" style="height: 55px; margin-right: 12px;">
+            <img src="img/clinic-logo.png" alt="Clinic Logo" style="height: clamp(40px, 10vw, 55px); margin-right: 10px;">
 
             <div class="d-flex flex-column align-items-start">
-                <h1 class="m-0" style="font-size: clamp(20px, 4.5vw, 32px); line-height: 1; color: #5E786B;">
+                <h1 class="m-0" style="font-size: clamp(16px, 4.5vw, 32px); line-height: 1; color: #5E786B;">
                     MADUKKAKUZHY
                 </h1>
                 <span style="
-                    font-size: clamp(12px, 3vw, 20px);
+                    font-size: clamp(10px, 2.8vw, 20px);
                     font-weight: 400;
                     margin-left: 2px;
                     display: inline-block;
@@ -122,7 +156,7 @@
                 </div>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="appointments.html" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
+            <a href="appointments.html" class="btn btn-primary py-2 px-4 ms-lg-3 mt-3 mt-lg-0">Appointment</a>
         </div>
     </nav>
     
@@ -235,13 +269,24 @@
                     </div>
         
                     <div class="col-lg-5" style="min-height: 500px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100 rounded wow zoomIn" 
-                                 data-wow-delay="0.9s" 
-                                 src="img/about.jpg" 
-                                 style="object-fit: cover;">
-                        </div>
-                    </div>
+    <div class="position-relative h-100 d-flex flex-column">
+        <!-- Image Container -->
+        <div class="position-relative flex-grow-1">
+            <img class="position-absolute w-100 h-100 rounded wow zoomIn" 
+                 data-wow-delay="0.9s" 
+                 src="img/about.jpg" 
+                 style="object-fit: cover;"
+                 alt="Dr. Aju George">
+        </div>
+        <!-- Caption Section -->
+        <div class="text-center mt-3 wow fadeInUp" data-wow-delay="1.1s">
+            <h4 class="mb-1" style="color: #3E4F46;">Dr. Aju George</h4>
+            <p class="text-uppercase fw-bold" style="color: #5E786B; font-size: 14px; letter-spacing: 1px;">
+                Chief Dental Surgeon and Director
+            </p>
+        </div>
+    </div>
+</div>
                 </div>
             </div>
         </section>
@@ -277,107 +322,167 @@
             </div>
         </section>
 
-        <section id="service" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="row g-5 mb-5">
-                    <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 600px;">
-                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Intra%20Oral%20Scan." target="_blank" class="text-decoration-none d-block h-100">
-                            <div class="position-relative h-100 rounded overflow-hidden">
-                                <video class="w-100 h-100" style="object-fit: cover;" autoplay muted loop playsinline>
-                                    <source src="video/service.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <div class="position-absolute bottom-0 w-100 text-center p-3" style="background: rgba(255, 255, 255, 0.85);">
-                                    <h5 class="m-0 text-dark">Intra Oral Scan</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <style>
+    /* Modern Service Card Styles - Theme Synced */
+    a.modern-service-link {
+        text-decoration: none;
+        display: block;
+        height: 100%;
+    }
+    .service-card-modern {
+        background-color: #ffffff;
+        border-radius: 16px;
+        padding: 24px 20px; /* Adjusted padding to keep height neat */
+        height: 100%;
+        text-align: left; 
+        transition: all 0.3s ease;
+        border: 1px solid #EAEFEA; 
+        box-shadow: 0 4px 15px rgba(62, 79, 70, 0.04); 
+        display: flex;
+        flex-direction: column;
+    }
+    .service-card-modern:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 25px rgba(62, 79, 70, 0.12);
+        border-color: #5E786B; 
+    }
+    .service-icon-box {
+        background-color: #F2F6F4; 
+        border-radius: 12px;
+        width: 55px;
+        height: 55px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+    .service-icon-box i {
+        font-size: 22px;
+        color: #5E786B; 
+    }
+    .service-card-modern h5 {
+        color: #3E4F46; 
+        font-weight: 600;
+        margin-bottom: 8px;
+        font-family: 'Jost', sans-serif;
+        font-size: 1.1rem;
+    }
+    .service-card-modern p {
+        color: #6B7280;
+        font-size: 0.85rem;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+</style>
+
+<section id="service" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
         
-                    <div class="col-lg-7">
-                        <div class="section-title mb-5">
-                            <h5 class="position-relative d-inline-block text-uppercase" style="color: #5E786B;">Our Services</h5>
-                            <h1 class="display-5 mb-0" style="color: #3E4F46;">We Offer The Best Quality Dental Services</h1>
-                        </div>
-                        <div class="row g-4">
-                            <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Cosmetic%20Dentistry." target="_blank" class="text-decoration-none">
-                                    <div class="rounded-top overflow-hidden">
-                                        <img class="img-fluid" src="img/service-1.jpg" alt="Cosmetic Dentistry">
-                                    </div>
-                                    <div class="position-relative custom-bg-light rounded-bottom text-center p-4">
-                                        <h5 class="m-0 text-dark">Cosmetic Dentistry</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.7s">
-                                <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Dental%20Implants." target="_blank" class="text-decoration-none">
-                                    <div class="rounded-top overflow-hidden">
-                                        <img class="img-fluid" src="img/service-2.jpg" alt="Dental Implants">
-                                    </div>
-                                    <div class="position-relative custom-bg-light rounded-bottom text-center p-4">
-                                        <h5 class="m-0 text-dark">Dental Implants</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.8s">
-                                <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Dental%20Bridges." target="_blank" class="text-decoration-none">
-                                    <div class="rounded-top overflow-hidden">
-                                        <img class="img-fluid" src="img/service-3.jpg" alt="Dental Bridges">
-                                    </div>
-                                    <div class="position-relative custom-bg-light rounded-bottom text-center p-4">
-                                        <h5 class="m-0 text-dark">Dental Bridges</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Teeth%20Whitening." target="_blank" class="text-decoration-none">
-                                    <div class="rounded-top overflow-hidden">
-                                        <img class="img-fluid" src="img/service-4.jpg" alt="Teeth Whitening">
-                                    </div>
-                                    <div class="position-relative custom-bg-light rounded-bottom text-center p-4">
-                                        <h5 class="m-0 text-dark">Teeth Whitening</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-lg-4 col-md-6 service-item wow zoomIn" data-wow-delay="1.1s">
-                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Root%20Canal." target="_blank" class="text-decoration-none">
-                            <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/service-5.jpg" alt="Root Canal">
-                            </div>
-                            <div class="position-relative custom-bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0 text-dark">Root Canal</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 service-item wow zoomIn" data-wow-delay="1.1s">
-                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20IntraOral%20Scan." target="_blank" class="text-decoration-none">
-                            <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/service-6.jpg" alt="Intra Oral Scan">
-                            </div>
-                            <div class="position-relative custom-bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0 text-dark">Intra Oral Scan</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 service-item wow zoomIn" data-wow-delay="1.2s">
-                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Clear%20Alligners." target="_blank" class="text-decoration-none">
-                            <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/service-7.jpg" alt="Clear Alligners">
-                            </div>
-                            <div class="position-relative custom-bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0 text-dark">Clear Alligners</h5>
-                            </div>
-                        </a>
-                    </div>
+        <!-- 1. FULL WIDTH CENTERED HEADING -->
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-8 wow zoomIn" data-wow-delay="0.2s">
+                <div class="section-title mb-0">
+                    <h5 class="position-relative d-inline-block text-uppercase" style="color: #5E786B;">Our Services</h5>
+                    <h1 class="display-5 mb-0" style="color: #3E4F46;">We Offer The Best Quality Dental Services</h1>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- 2. SPLIT LAYOUT (VIDEO LEFT, CARDS RIGHT) -->
+        <!-- align-items-stretch ensures both left and right columns share the exact same height -->
+        <div class="row g-4 align-items-stretch">
+            
+            <!-- LEFT: VIDEO FRAME -->
+            <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 600px;">
+                <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Intra%20Oral%20Scan." target="_blank" class="text-decoration-none d-block h-100">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <video class="w-100 h-100" style="object-fit: cover;" autoplay muted loop playsinline>
+                            <source src="video/service.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="position-absolute bottom-0 w-100 text-center p-3" style="background: rgba(255, 255, 255, 0.85);">
+                            <h5 class="m-0 text-dark">Intra Oral Scan</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- RIGHT: 6 SERVICE BOXES (Exactly parallel to video) -->
+            <div class="col-lg-7">
+                <div class="row g-3 h-100"> <!-- h-100 on this row ensures it drives the height -->
+                    
+                    <!-- 1. Cosmetic Dentistry -->
+                    <div class="col-md-6 wow zoomIn" data-wow-delay="0.4s">
+                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Cosmetic%20Dentistry." target="_blank" class="modern-service-link">
+                            <div class="service-card-modern">
+                                <div class="service-icon-box"><i class="fas fa-gem"></i></div>
+                                <h5>Cosmetic Dentistry</h5>
+                                <p>Aesthetic treatments and restorations that blend seamlessly with your natural smile.</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- 2. Dental Implants -->
+                    <div class="col-md-6 wow zoomIn" data-wow-delay="0.5s">
+                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Dental%20Implants." target="_blank" class="modern-service-link">
+                            <div class="service-card-modern">
+                                <div class="service-icon-box"><i class="fas fa-tooth"></i></div>
+                                <h5>Dental Implants</h5>
+                                <p>Permanent, lifelike tooth replacements that restore full function and confidence.</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- 3. Dental Bridges -->
+                    <div class="col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Dental%20Bridges." target="_blank" class="modern-service-link">
+                            <div class="service-card-modern">
+                                <div class="service-icon-box"><i class="fas fa-teeth-open"></i></div>
+                                <h5>Dental Bridges</h5>
+                                <p>Durable, natural-looking restorations designed to replace missing teeth.</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- 4. Teeth Whitening -->
+                    <div class="col-md-6 wow zoomIn" data-wow-delay="0.7s">
+                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Teeth%20Whitening." target="_blank" class="modern-service-link">
+                            <div class="service-card-modern">
+                                <div class="service-icon-box"><i class="fas fa-magic"></i></div>
+                                <h5>Teeth Whitening</h5>
+                                <p>Advanced whitening treatments that deliver brilliant, long-lasting results safely.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 5. Root Canal -->
+                    <div class="col-md-6 wow zoomIn" data-wow-delay="0.8s">
+                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Root%20Canal." target="_blank" class="modern-service-link">
+                            <div class="service-card-modern">
+                                <div class="service-icon-box"><i class="fas fa-notes-medical"></i></div>
+                                <h5>Root Canal Treatment</h5>
+                                <p>Expert endodontic therapy to save infected teeth with minimal discomfort.</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- 6. Clear Aligners -->
+                    <div class="col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                        <a href="https://wa.me/916282606191?text=Hi%20Doctor%2C%20I%20would%20like%20to%20enquire%20about%20Clear%20Aligners." target="_blank" class="modern-service-link">
+                            <div class="service-card-modern">
+                                <div class="service-icon-box"><i class="far fa-smile"></i></div>
+                                <h5>Clear Aligners</h5>
+                                <p>Comfortable, nearly invisible aligners for a perfectly straight, natural smile.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
 
         <section id="gallery" class="container-fluid py-5" style="background-color: #72897D;">
             <div class="container py-5">
@@ -688,46 +793,28 @@
             </div>
         </section>
         
-        <section id="reviews" class="container my-5">
-            <h2 class="text-center mb-4" style="color: #3E4F46;">What Our Patients Say</h2>
-            <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/review1.png" class="d-block w-100 rounded shadow" alt="Review 1">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/review2.png" class="d-block w-100 rounded shadow" alt="Review 2">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/review3.png" class="d-block w-100 rounded shadow" alt="Review 3">
-                </div>
-               <div class="carousel-item">
-                  <img src="img/review4.png" class="d-block w-100 rounded shadow" alt="Review 4">
-                </div>
-               <div class="carousel-item">
-                  <img src="img/review5.png" class="d-block w-100 rounded shadow" alt="Review 5">
-                </div>
-               <div class="carousel-item">
-                  <img src="img/review6.png" class="d-block w-100 rounded shadow" alt="Review 6">
-                </div>
-               <div class="carousel-item">
-                  <img src="img/review7.png" class="d-block w-100 rounded shadow" alt="Review 7">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/review8.png" class="d-block w-100 rounded shadow" alt="Review 8">
-                </div>
-               <div class="carousel-item">
-                  <img src="img/review9.png" class="d-block w-100 rounded shadow" alt="Review 9">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
+      <section id="reviews" class="container-fluid py-5" style="background-color: #F2F6F4;">
+    <div class="container py-5">
+        
+        <!-- Section Heading -->
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="position-relative d-inline-block text-uppercase" style="color: #5E786B;"></h5>
+            <h1 class="display-5 mb-4" style="color: #3E4F46;">What Our Patients Say</h1>
+        </div>
+
+        <!-- Live Google Review Embed Container (Widened for 4 columns) -->
+        <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-12 text-center">
+                
+                <!-- Elfsight Google Reviews Widget -->
+                <script src="https://elfsightcdn.com/platform.js" async></script>
+                <div class="elfsight-app-d53ff97f-53d8-490b-91a4-995de22c8f5d" data-elfsight-app-lazy></div>
+                
             </div>
-        </section>
+        </div>
+        
+    </div>
+</section>
 
     </main>
 
