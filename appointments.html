@@ -35,6 +35,54 @@
             box-sizing: border-box;
         }
 
+        .doctor-select-wrapper {
+    position: relative;
+}
+
+#doct​or {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: #f9fafb;
+    border: 1px solid var(--border-color);
+
+    padding: 14px 45px 14px 14px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    color: var(--text-main);
+
+    transition: all 0.25s ease;
+
+    cursor: pointer;
+}
+
+#doct​or:focus {
+    border-color: var(--primary);
+    background: white;
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.12);
+}
+
+.doctor-select-wrapper::after {
+
+    position: absolute;
+    right: 16px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: var(--primary);
+
+    font-size: 18px;
+    font-weight: bold;
+
+    pointer-events: none;
+}
+
         .header-section {
             text-align: center;
             margin-bottom: 25px;
@@ -196,32 +244,95 @@
                 </div>
             </div>
 
-            <div class="input-group">
+    <div class="input-group">
     <label for="doctor">Select Doctor</label>
-    <select id="doctor" required>
-        <option value="" disabled selected>-- Choose a Doctor --</option>
-        <option value="Dr. ABIN ANNA">Dr. ABIN ANNA</option>
-        <option value="Dr. AJU GEORGE">Dr. AJU GEORGE</option>
-        <option value="Dr. AMEERR">Dr. AMEERR</option>
-        <option value="Dr. ANU MATHEW">Dr. ANU MATHEW</option>
-        <option value="Dr. ASHLY">Dr. ASHLY</option>
-        <option value="Dr. ATHIRA">Dr. ATHIRA</option>
-        <option value="Dr. BLESSIN">Dr. BLESSIN</option>
-        <option value="Dr. GIFTY">Dr. GIFTY</option>
-        <option value="Dr. JINKU">Dr. JINKU</option>
-        <option value="Dr. JWALA">Dr. JWALA</option>
-        <option value="DR. NIRUPAMA">DR. NIRUPAMA</option>
-        <option value="Dr. NIVYA">Dr. NIVYA</option>
-        <option value="Dr. RENJU">Dr. RENJU</option>
-        <option value="Dr. RINY">Dr. RINY</option>
-        <option value="Dr. VIMAL">Dr. VIMAL</option>
-        <option value="Dr. VINEETH">Dr. VINEETH</option>
-    </select>
+
+    <div class="doctor-select-wrapper">
+        <select id="doctor" required>
+            <option value="" disabled selected>-- Choose a Doctor --</option>
+
+            <option value="Dr. AJU GEORGE">
+                Dr. AJU GEORGE — CHIEF DENTAL SURGEON
+            </option>
+
+            <option value="Dr. ANN">
+                Dr. ANN — ROOT CANAL SPECIALIST
+            </option>
+
+            <option value="Dr. AMEERR">
+                Dr. AMEERR — ROOT CANAL SPECIALIST
+            </option>
+
+            <option value="Dr. ANU MATHEW">
+                Dr. ANU MATHEW — PERIODONTIST
+            </option>
+
+            <option value="Dr. GIFTY">
+                Dr. GIFTY — ENDODONTIST
+            </option>
+
+            <option value="Dr. JINKU">
+                Dr. JINKU — PAEDODONTIST
+            </option>
+
+            <option value="Dr. JWALA">
+                Dr. JWALA — ORTHODONTIST
+            </option>
+
+            <option value="Dr. RINY">
+                Dr. RINY — ORAL AND MAXILLOFACIAL SURGEON
+            </option>
+
+            <option value="Dr. VIMAL">
+                Dr. VIMAL — PERIODONTIST
+            </option>
+
+            <option value="Dr. VINEETH">
+                Dr. VINEETH — ORAL AND MAXILLOFACIAL SURGEON
+            </option>
+
+            <option value="Dr. ABIN ANNA">
+                Dr. ABIN ANNA 
+            </option>
+
+            <option value="Dr. ASHLY">
+                Dr. ASHLY 
+            </option>
+
+            <option value="Dr. ATHIRA">
+                Dr. ATHIRA 
+            </option>
+
+            <option value="Dr. BLESSIN">
+                Dr. BLESSIN
+            </option>
+
+            <option value="DR. NIRUPAMA">
+                DR. NIRUPAMA 
+            </option>
+
+            <option value="Dr. NIVYA">
+                Dr. NIVYA 
+            </option>
+
+            <option value="Dr. RENJU">
+                Dr. RENJU 
+            </option>
+
+        </select>
+    </div>
 </div>
 
             <div class="input-group">
                 <label for="reason">Reason For Visit</label>
                 <textarea id="reason" placeholder="Briefly describe your dental issue..." required></textarea>
+            </div>
+
+            <div class="input-group" style="margin-top: 15px; margin-bottom: 20px;">
+                <label style="display: flex; align-items: center; font-size: 14px; font-weight: 500; cursor: pointer; margin-bottom: 0;">
+                    <input type="checkbox" id="privacyCheck" required checked style="width: 18px; height: 18px; margin-right: 10px; accent-color: var(--primary); cursor: pointer;">
+                    <span>I agree to the <a href="privacy.html" target="_blank" style="color: var(--primary); text-decoration: underline;">Privacy Policy</a></span>
+                </label>
             </div>
 
             <button type="submit" id="submitBtn">Submit Request</button>
